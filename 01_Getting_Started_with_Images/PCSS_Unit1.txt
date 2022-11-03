@@ -1,4 +1,9 @@
 Author: Jack Jin
 Date: September 23rd
 
-This lesson taught me how to open a image file with python. Using matplotLib and the cv2 library,
+
+As a result of this lesson, I can open images files(.png, .jpg) with the help of the
+CV2 library and the matplot library. Putting the image file into a variable first, with the help
+of cv2 library doing the jobs of converting it into a compatible type to python. And with the
+help of matplot, a visualization library who's main job was to visualize different stuff using
+python.
