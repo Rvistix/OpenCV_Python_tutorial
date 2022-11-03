@@ -1,0 +1,4 @@
+Author: Jack Jin
+Date: September 23rd
+
+This lesson taught me how to open a image file with python. Using matplotLib and the cv2 library,
