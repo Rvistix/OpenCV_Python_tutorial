@@ -1,0 +1,4 @@
+Author: Jack Jin
+Date: November 28th
+
+As the result of this lesson, I've learnt how to make a circle, line, rectangle, and a string of text in image.
