@@ -1,20 +1,15 @@
 import cv2
 
-video = cv2.VideoCapture(0)
-name = 'camera'
-cv2.namedWindow(name, cv2.WINDOW_NORMAL)
+source = cv2.VideoCapture(0)
 
-bool = True
+win_name = 'Camera Preview'
+cv2.namedWindow(win_name, cv2.WINDOW_NORMAL)
 
-
-while cv2.waitKey(1) != 27 and bool:
-    frame_b, frame = video.read()
-    if not frame_b:
+while cv2.waitKey(1) != 27: # Escape
+    has_frame, frame = source.read()
+    if not has_frame:
         break
-    cv2.imshow(name, frame)
-    if not input() == '':
-        break
+    cv2.imshow(win_name, frame)
 
-video.release()
-cv2.destroyWindow(name)
-
+source.release()
+cv2.destroyWindow(win_name)
