@@ -120,8 +120,8 @@ result = cv2.bitwise_and(img_back, img_front)
 
 
 cv2.imshow("front", result)
-cv2.imshow("PICTURE", img_back)
-cv2.imshow("back", mask)
+cv2.imshow("PICTURE", img_front)
+cv2.imshow("back", img_back)
 
 cv2.waitKey()
 
